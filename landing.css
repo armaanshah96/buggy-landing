@@ -5,7 +5,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat','Roboto', sans-serif;
 
 }
 
@@ -34,15 +34,17 @@ section {
 }
 
 .large, h3 {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     font-weight: 400;
+    padding-bottom: 1rem;
+    color:#3b3b3b;
 }
 
 .launch {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: right;
-    color: #b2b2b2;
+    color: #3b3b3b;
     display: inline-block;   
 }
 
@@ -50,7 +52,7 @@ section {
     background-color: rgba(255,255,255, 1);;
     border-radius: 5px;
     padding:.6rem;
-    border: 3px solid #abd6a5;
+    border: 3px solid #ffffff;
 }
 
 /* font-text colors */
@@ -66,7 +68,7 @@ section {
 }
 
 .twothirds {
-    width: 58%;
+    width: 60%;
 }
 
  subscribe button 
@@ -85,16 +87,19 @@ input {outline:none;}
     border-decoration: none;
 
 }
+/*abd6a5*/
 
 .subscribe[type="email"] {
     margin-right: 0.5em;
-    border: 3px solid #abd6a5;
+    border: 3px solid #ffffff;
+    color: #3b3b3b;
 }
 
 .subscribe[type="submit"] {
-    background: #abd6a5;
-    border: 3px solid #abd6a5;
-    color: white;
+    background: #ffffff;
+    border: 3px solid #ffffff;
+    color: #3b3b3b;
+    margin-bottom: 2rem;
 }
 
 .subscribe[type="submit"]:hover {
@@ -103,5 +108,5 @@ input {outline:none;}
     -ms-transition: all ease-in-out 0.6s;
     -o-transition: all ease-in-out 0.6s;
     transition: all ease-in-out .6s;
-    background: rgba(171, 214, 165, 0.5);
+    background: rgba(255,255,255, 0.5);
 }
