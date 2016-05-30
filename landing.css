@@ -1,11 +1,10 @@
 html {
-    background-color:rgba(171, 214, 165, 0.5);
-    background: url(BuggyStackBeige.jpg) no-repeat center center fixed; 
+    background-color:#f8f8f8;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Montserrat','Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -18,7 +17,7 @@ section {
 }
 .fade-box {
     padding-top:2rem;
-    background-color: rgba(255,255,255, 0.5);;
+    background-color: #71aebc;
     border-radius: 5px;
 }
 
@@ -30,29 +29,30 @@ section {
 .mega, h1 {
     font-size: 5rem;
     display:inline-block;
-    margin: .9rem;   
+    margin: .9rem;
+    font-weight: 300;
 }
 
 .large, h3 {
     font-size: 1.5rem;
     font-weight: 400;
     padding-bottom: 1rem;
-    color:#3b3b3b;
+    color:#f8f8f8;
 }
 
 .launch {
     font-weight: 400;
     font-size: 1rem;
     text-align: right;
-    color: #3b3b3b;
+    color: #71aebc;
     display: inline-block;   
 }
 
 .fade-box-launch {
-    background-color: rgba(255,255,255, 1);;
+    background-color: ;
     border-radius: 5px;
     padding:.6rem;
-    border: 3px solid #ffffff;
+/*    border: 3px solid #ffffff;*/
 }
 
 /* font-text colors */
@@ -92,6 +92,11 @@ input {outline:none;}
     margin-right: 0.5em;
     border: 3px solid #ffffff;
     color: #3b3b3b;
+/*
+    padding-right: 3rem;
+    padding-left: 3rem;
+*/
+    width:30%;
 }
 
 .subscribe[type="submit"] {
